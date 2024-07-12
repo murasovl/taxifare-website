@@ -1,13 +1,17 @@
+import streamlit as st
+import requests
+import datetime as datetime
+import pandas as pd
+
 '''
 # TaxiFareModel front
 '''
-
 st.markdown('''
 Blubb
 ''')
 
 # Display a map of New York City
-nyc_center = pandas.DataFrame({
+nyc_center = pd.DataFrame({
     'lat': [40.7128],
     'lon': [-74.0060]
 })
